@@ -1,0 +1,28 @@
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btn1:hover {
+    /* Deze styling is enkel van toepassing wanneer cursor op element */
+    background-color: rgb(94, 94, 224);
+    color: white;
+    border: 3px solid gray;
+    box-shadow: 5px 5px 3px gray;
+}
+
+#btn2:active {
+    /* Deze styling is enkel van toepassing wanneer cursor ingedrukt op element */
+    transform: translateY(10px);
+    background-color: green;
+    color: orange;
+}
+
+#btn3:focus {
+    outline: 3px solid rgb(87, 195, 222);
+}

@@ -2,14 +2,14 @@ Je maakt een eenvoudige webpagina met een HTML-bestand en een apart CSS-bestand.
 
 **HTML Pagina aanmaken**
 
-* Voeg de basisstructuur van een HTML-pagina toe met een `<head>` en `<body>`-sectie.
-* Voeg een titel toe aan de pagina: "Interactieve knoppen".
-* Voeg drie knoppen toe binnen de `<body>`-sectie en geef ze een unieke `id`:
+- [x] Voeg de basisstructuur van een HTML-pagina toe met een `<head>` en `<body>`-sectie.
+- [x] Voeg een titel toe aan de pagina: "Interactieve knoppen".
+- [x] Voeg drie knoppen toe binnen de `<body>`-sectie en geef ze een unieke `id`:
 
 **CSS bestand aanmaken**
-* Denk eraan het resetscript toe te passen. Zet het op de juiste plaats en verwijs ernaar in je HTML-pagina.
-* Voeg een leeg bestand `style.css` toe in de css map en link deze aan de html pagina.
-* Definieer de basisstijl voor de knoppen:
+- [x] Denk eraan het resetscript toe te passen. Zet het op de juiste plaats en verwijs ernaar in je HTML-pagina.
+- [x] Voeg een leeg bestand `style.css` toe in de css map en link deze aan de html pagina.
+- [x] Definieer de basisstijl voor de knoppen:
 
 ```css
 button {
