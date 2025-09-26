@@ -1,8 +1,22 @@
-li:nth-child(2n+1) {
-    color: rgb(75, 125, 234);
+h1 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
-li:nth-child(2n) {
-    color: black;
-    background-color: rgb(214, 214, 214);
+ol {
+    margin-left: 50px;
+}
+
+li {
+    display: list-item;
+    list-style-type: decimal;
+}
+
+
+li:nth-child(even) {
+    background-color: gray;
+}
+
+li:nth-child(odd) {
+    color: blue;
 }
