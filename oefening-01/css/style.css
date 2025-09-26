@@ -1,3 +1,8 @@
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -9,20 +14,18 @@ button {
 }
 
 #btn1:hover {
-    /* Deze styling is enkel van toepassing wanneer cursor op element */
-    background-color: rgb(94, 94, 224);
+    background-color: #009dff;
     color: white;
-    border: 3px solid gray;
-    box-shadow: 5px 5px 3px gray;
+    border: 2px solid orange;
+    box-shadow: 10px 10px 5px lightblue;
 }
 
 #btn2:active {
-    /* Deze styling is enkel van toepassing wanneer cursor ingedrukt op element */
-    transform: translateY(10px);
-    background-color: green;
+    background-color: rgb(33, 151, 29);
     color: orange;
+    transform: translateY(10px);
 }
 
 #btn3:focus {
-    outline: 3px solid rgb(87, 195, 222);
+    outline: 2px solid yellow;
 }
